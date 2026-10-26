@@ -34,3 +34,11 @@ jobs:
 
       - name: Unit tests
         run: python -m pytest tests -q
+
+      - name: Guard：公开内容不含公司名
+        run: |
+          if git grep -n "HashKey" -- . ; then
+            echo "::error::仓库里出现了不应公开的公司名称"
+            exit 1
+          fi
+          echo "OK：未发现公司名称"
