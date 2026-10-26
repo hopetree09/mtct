@@ -1,5 +1,7 @@
 ﻿# MTCT · 多终端计算机应用兼容性测试系统
 
+[![CI](https://github.com/hopetree09/mtct/actions/workflows/ci.yml/badge.svg)](https://github.com/hopetree09/mtct/actions/workflows/ci.yml)
+
 > 给一个 Web 应用写一次用例，就能在多种终端环境（浏览器内核 / 分辨率 / 缩放 / 语言 / 网络）上
 > 自动执行，用"布局不变量"判定兼容性缺陷，并产出带截图证据的报告。
 
