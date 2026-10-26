@@ -1,0 +1,12 @@
+﻿{
+  "app": { "footer": "DemoX Exchange · 仅用于测试的演示站点" },
+  "lang": { "zh": "中文", "en": "English", "vi": "Tiếng Việt" },
+  "nav": { "markets": "行情", "trade": "交易", "kyc": "身份认证", "settings": "设置", "login": "登录" },
+  "common": { "loading": "加载中…", "empty": "暂无数据", "retry": "重试", "cancel": "取消", "back": "返回", "save": "保存", "saved": "已保存", "confirm": "确认" },
+  "login": { "title": "登录 DemoX", "subtitle": "演示账号：demo@example.com / 任意密码", "email": "邮箱", "password": "密码", "forgot": "忘记密码？", "submit": "登录", "required": "请输入邮箱和密码", "invalid": "邮箱或密码不正确" },
+  "home": { "title": "行情", "sub": "共 {count} 个交易对", "placeholder": "搜索币种", "tabAll": "全部", "tabFav": "自选", "pair": "交易对", "price": "最新价", "change": "24h 涨跌", "volume": "24h 成交额", "errorTitle": "行情加载失败", "errorDesc": "请检查网络后重试", "empty": "没有找到匹配的币种" },
+  "coin": { "high": "24h 最高", "low": "24h 最低", "volume": "24h 成交额", "buy": "买入 {symbol}", "sell": "卖出 {symbol}", "chart": "价格走势" },
+  "trade": { "orderbook": "订单簿", "recent": "最近成交", "limit": "限价", "market": "市价", "price": "价格", "amount": "数量", "total": "成交额", "available": "可用", "submitBuy": "买入 {symbol}", "submitSell": "卖出 {symbol}", "hint": "演示环境，不会产生真实订单", "pricePlaceholder": "请输入价格", "amountPlaceholder": "请输入数量" },
+  "kyc": { "title": "身份认证", "sub": "完成认证后可解锁全部功能", "name": "姓名", "docType": "证件类型", "docNo": "证件号码", "address": "居住地址", "addressPlaceholder": "请输入省/市、区/县、街道与门牌号", "upload": "上传证件照片", "submit": "提交认证", "error": "请填写完整信息", "success": "提交成功，审核中", "idCard": "身份证", "passport": "护照", "driver": "驾驶证" },
+  "settings": { "title": "设置", "sub": "语言与显示偏好", "language": "语言", "theme": "主题", "light": "浅色", "dark": "深色", "notify": "价格提醒通知", "version": "版本", "about": "DemoX 演示站点，仅用于兼容性测试", "saved": "已保存" }
+}

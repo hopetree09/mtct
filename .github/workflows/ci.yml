@@ -1,0 +1,36 @@
+﻿name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+# 说明：CI 只跑不依赖浏览器的单元/契约测试；端到端与基准集需要本机 Playwright + 演示站，
+#      命令见 README「快速开始」（python -m mtct baseline / eval --serve）。
+  test:
+    name: pytest (${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Compile check
+        run: python -m compileall -q mtct
+
+      - name: Unit tests
+        run: python -m pytest tests -q

@@ -1,0 +1,1656 @@
+[
+  {
+    "id": "bench-001",
+    "page": "home",
+    "category": "layout",
+    "severity": "blocker",
+    "selector": ".market-card",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".market-card 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-002",
+    "page": "home",
+    "category": "layout",
+    "severity": "major",
+    "selector": ".search-box",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".search-box 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-003",
+    "page": "home",
+    "category": "layout",
+    "severity": "major",
+    "selector": ".tabs",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".tabs 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-004",
+    "page": "home",
+    "category": "layout",
+    "severity": "minor",
+    "selector": ".toolbar",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".toolbar 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-005",
+    "page": "home",
+    "category": "layout",
+    "severity": "blocker",
+    "selector": ".market-grid",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".market-grid 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-006",
+    "page": "coin",
+    "category": "layout",
+    "severity": "blocker",
+    "selector": ".panel",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".panel 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-007",
+    "page": "coin",
+    "category": "layout",
+    "severity": "major",
+    "selector": ".coin-stats",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".coin-stats 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-008",
+    "page": "coin",
+    "category": "layout",
+    "severity": "major",
+    "selector": ".coin-header",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".coin-header 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-009",
+    "page": "coin",
+    "category": "layout",
+    "severity": "minor",
+    "selector": ".price-big",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".price-big 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-010",
+    "page": "coin",
+    "category": "layout",
+    "severity": "blocker",
+    "selector": ".coin-actions",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".coin-actions 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-011",
+    "page": "trade",
+    "category": "layout",
+    "severity": "blocker",
+    "selector": ".trade-panel",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".trade-panel 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-012",
+    "page": "trade",
+    "category": "layout",
+    "severity": "major",
+    "selector": ".orderbook",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".orderbook 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-013",
+    "page": "trade",
+    "category": "layout",
+    "severity": "major",
+    "selector": ".order-input-row",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".order-input-row 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-014",
+    "page": "trade",
+    "category": "layout",
+    "severity": "minor",
+    "selector": ".trade-total",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".trade-total 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-015",
+    "page": "trade",
+    "category": "layout",
+    "severity": "blocker",
+    "selector": ".trade-submit",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".trade-submit 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-016",
+    "page": "kyc",
+    "category": "layout",
+    "severity": "blocker",
+    "selector": ".kyc-card",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".kyc-card 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-017",
+    "page": "kyc",
+    "category": "layout",
+    "severity": "major",
+    "selector": ".upload-box",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".upload-box 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-018",
+    "page": "kyc",
+    "category": "layout",
+    "severity": "major",
+    "selector": ".field-row",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".field-row 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-019",
+    "page": "kyc",
+    "category": "layout",
+    "severity": "minor",
+    "selector": ".field",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".field 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-020",
+    "page": "kyc",
+    "category": "layout",
+    "severity": "blocker",
+    "selector": "[data-testid=kyc-submit]",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": "[data-testid=kyc-submit] 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-021",
+    "page": "login",
+    "category": "layout",
+    "severity": "blocker",
+    "selector": ".login-card",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".login-card 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-022",
+    "page": "login",
+    "category": "layout",
+    "severity": "major",
+    "selector": ".login-actions",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".login-actions 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-023",
+    "page": "login",
+    "category": "layout",
+    "severity": "major",
+    "selector": ".field",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".field 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-024",
+    "page": "login",
+    "category": "layout",
+    "severity": "minor",
+    "selector": ".login-sub",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".login-sub 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-025",
+    "page": "login",
+    "category": "layout",
+    "severity": "blocker",
+    "selector": ".auth-wrap",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".auth-wrap 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-026",
+    "page": "settings",
+    "category": "layout",
+    "severity": "blocker",
+    "selector": ".settings-card",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".settings-card 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-027",
+    "page": "settings",
+    "category": "layout",
+    "severity": "major",
+    "selector": ".setting-row",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".setting-row 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-028",
+    "page": "settings",
+    "category": "layout",
+    "severity": "major",
+    "selector": ".seg",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".seg 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-029",
+    "page": "settings",
+    "category": "layout",
+    "severity": "minor",
+    "selector": ".setting-label",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".setting-label 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-030",
+    "page": "settings",
+    "category": "layout",
+    "severity": "blocker",
+    "selector": ".setting-control",
+    "styles": {
+      "width": "1800px",
+      "minWidth": "1800px"
+    },
+    "action": null,
+    "expected_detector": "no_overflow",
+    "note": ".setting-control 宽度被撑到 1800px，超出 1366 视口"
+  },
+  {
+    "id": "bench-031",
+    "page": "home",
+    "category": "i18n",
+    "severity": "blocker",
+    "selector": ".page-head h1",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".page-head h1 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-032",
+    "page": "home",
+    "category": "i18n",
+    "severity": "major",
+    "selector": ".market-card .pair",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".market-card .pair 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-033",
+    "page": "home",
+    "category": "i18n",
+    "severity": "major",
+    "selector": ".market-card .price",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".market-card .price 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-034",
+    "page": "home",
+    "category": "i18n",
+    "severity": "minor",
+    "selector": ".market-card .change",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".market-card .change 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-035",
+    "page": "home",
+    "category": "i18n",
+    "severity": "blocker",
+    "selector": ".tab-btn",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".tab-btn 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-036",
+    "page": "coin",
+    "category": "i18n",
+    "severity": "blocker",
+    "selector": ".price-big",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".price-big 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-037",
+    "page": "coin",
+    "category": "i18n",
+    "severity": "major",
+    "selector": ".stat-label",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".stat-label 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-038",
+    "page": "coin",
+    "category": "i18n",
+    "severity": "major",
+    "selector": ".stat-value",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".stat-value 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-039",
+    "page": "coin",
+    "category": "i18n",
+    "severity": "minor",
+    "selector": ".coin-actions .btn",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".coin-actions .btn 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-040",
+    "page": "coin",
+    "category": "i18n",
+    "severity": "blocker",
+    "selector": ".page-head h1",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".page-head h1 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-041",
+    "page": "trade",
+    "category": "i18n",
+    "severity": "blocker",
+    "selector": ".trade-submit",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".trade-submit 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-042",
+    "page": "trade",
+    "category": "i18n",
+    "severity": "major",
+    "selector": ".order-tabs .tab-btn",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".order-tabs .tab-btn 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-043",
+    "page": "trade",
+    "category": "i18n",
+    "severity": "major",
+    "selector": ".hint",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".hint 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-044",
+    "page": "trade",
+    "category": "i18n",
+    "severity": "minor",
+    "selector": ".trade-total",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".trade-total 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-045",
+    "page": "trade",
+    "category": "i18n",
+    "severity": "blocker",
+    "selector": ".page-head h1",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".page-head h1 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-046",
+    "page": "kyc",
+    "category": "i18n",
+    "severity": "blocker",
+    "selector": ".field label",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".field label 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-047",
+    "page": "kyc",
+    "category": "i18n",
+    "severity": "major",
+    "selector": ".upload-box",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".upload-box 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-048",
+    "page": "kyc",
+    "category": "i18n",
+    "severity": "major",
+    "selector": "[data-testid=kyc-submit]",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": "[data-testid=kyc-submit] 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-049",
+    "page": "kyc",
+    "category": "i18n",
+    "severity": "minor",
+    "selector": ".page-head h1",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".page-head h1 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-050",
+    "page": "kyc",
+    "category": "i18n",
+    "severity": "blocker",
+    "selector": ".kyc-card",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".kyc-card 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-051",
+    "page": "login",
+    "category": "i18n",
+    "severity": "blocker",
+    "selector": ".login-card h1",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".login-card h1 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-052",
+    "page": "login",
+    "category": "i18n",
+    "severity": "major",
+    "selector": ".login-sub",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".login-sub 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-053",
+    "page": "login",
+    "category": "i18n",
+    "severity": "major",
+    "selector": ".field label",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".field label 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-054",
+    "page": "login",
+    "category": "i18n",
+    "severity": "minor",
+    "selector": ".login-actions",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".login-actions 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-055",
+    "page": "login",
+    "category": "i18n",
+    "severity": "blocker",
+    "selector": ".login-card",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".login-card 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-056",
+    "page": "settings",
+    "category": "i18n",
+    "severity": "blocker",
+    "selector": ".page-head h1",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".page-head h1 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-057",
+    "page": "settings",
+    "category": "i18n",
+    "severity": "major",
+    "selector": ".setting-label",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".setting-label 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-058",
+    "page": "settings",
+    "category": "i18n",
+    "severity": "major",
+    "selector": ".setting-desc",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".setting-desc 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-059",
+    "page": "settings",
+    "category": "i18n",
+    "severity": "minor",
+    "selector": ".seg button",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".seg button 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-060",
+    "page": "settings",
+    "category": "i18n",
+    "severity": "blocker",
+    "selector": ".settings-card",
+    "styles": {
+      "maxWidth": "18px",
+      "overflow": "hidden",
+      "whiteSpace": "nowrap",
+      "textOverflow": "clip"
+    },
+    "action": null,
+    "expected_detector": "text_not_truncated",
+    "note": ".settings-card 被限宽 18px，长文案被裁切"
+  },
+  {
+    "id": "bench-061",
+    "page": "home",
+    "category": "contrast",
+    "severity": "blocker",
+    "selector": ".page-sub",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".page-sub 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-062",
+    "page": "home",
+    "category": "contrast",
+    "severity": "major",
+    "selector": ".market-card .meta",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".market-card .meta 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-063",
+    "page": "home",
+    "category": "contrast",
+    "severity": "major",
+    "selector": ".market-card .change",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".market-card .change 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-064",
+    "page": "home",
+    "category": "contrast",
+    "severity": "minor",
+    "selector": ".tab-btn",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".tab-btn 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-065",
+    "page": "coin",
+    "category": "contrast",
+    "severity": "blocker",
+    "selector": ".page-sub",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".page-sub 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-066",
+    "page": "coin",
+    "category": "contrast",
+    "severity": "major",
+    "selector": ".stat-label",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".stat-label 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-067",
+    "page": "coin",
+    "category": "contrast",
+    "severity": "major",
+    "selector": ".stat-value",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".stat-value 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-068",
+    "page": "trade",
+    "category": "contrast",
+    "severity": "blocker",
+    "selector": ".page-sub",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".page-sub 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-069",
+    "page": "trade",
+    "category": "contrast",
+    "severity": "major",
+    "selector": ".hint",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".hint 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-070",
+    "page": "trade",
+    "category": "contrast",
+    "severity": "major",
+    "selector": ".trade-total",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".trade-total 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-071",
+    "page": "trade",
+    "category": "contrast",
+    "severity": "minor",
+    "selector": ".ob-row",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".ob-row 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-072",
+    "page": "kyc",
+    "category": "contrast",
+    "severity": "blocker",
+    "selector": ".page-sub",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".page-sub 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-073",
+    "page": "kyc",
+    "category": "contrast",
+    "severity": "major",
+    "selector": ".field label",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".field label 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-074",
+    "page": "kyc",
+    "category": "contrast",
+    "severity": "major",
+    "selector": ".upload-box",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".upload-box 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-075",
+    "page": "login",
+    "category": "contrast",
+    "severity": "blocker",
+    "selector": ".login-sub",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".login-sub 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-076",
+    "page": "login",
+    "category": "contrast",
+    "severity": "major",
+    "selector": ".field label",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".field label 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-077",
+    "page": "login",
+    "category": "contrast",
+    "severity": "major",
+    "selector": ".login-card",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".login-card 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-078",
+    "page": "settings",
+    "category": "contrast",
+    "severity": "blocker",
+    "selector": ".page-sub",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".page-sub 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-079",
+    "page": "settings",
+    "category": "contrast",
+    "severity": "major",
+    "selector": ".setting-desc",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".setting-desc 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-080",
+    "page": "settings",
+    "category": "contrast",
+    "severity": "major",
+    "selector": ".setting-label",
+    "styles": {
+      "color": "#f2f2f2"
+    },
+    "action": null,
+    "expected_detector": "contrast_ratio",
+    "note": ".setting-label 前景色接近背景色，对比度低于 3:1"
+  },
+  {
+    "id": "bench-081",
+    "page": "home",
+    "category": "zoom",
+    "severity": "blocker",
+    "selector": ".app",
+    "styles": {
+      "width": "2200px",
+      "maxWidth": "none"
+    },
+    "action": null,
+    "expected_detector": "no_horizontal_scroll",
+    "note": "容器宽度固定 2200px，窄视口下出现横向滚动"
+  },
+  {
+    "id": "bench-082",
+    "page": "coin",
+    "category": "zoom",
+    "severity": "major",
+    "selector": ".app",
+    "styles": {
+      "width": "2200px",
+      "maxWidth": "none"
+    },
+    "action": null,
+    "expected_detector": "no_horizontal_scroll",
+    "note": "容器宽度固定 2200px，窄视口下出现横向滚动"
+  },
+  {
+    "id": "bench-083",
+    "page": "trade",
+    "category": "zoom",
+    "severity": "major",
+    "selector": ".app",
+    "styles": {
+      "width": "2200px",
+      "maxWidth": "none"
+    },
+    "action": null,
+    "expected_detector": "no_horizontal_scroll",
+    "note": "容器宽度固定 2200px，窄视口下出现横向滚动"
+  },
+  {
+    "id": "bench-084",
+    "page": "kyc",
+    "category": "zoom",
+    "severity": "minor",
+    "selector": ".app",
+    "styles": {
+      "width": "2200px",
+      "maxWidth": "none"
+    },
+    "action": null,
+    "expected_detector": "no_horizontal_scroll",
+    "note": "容器宽度固定 2200px，窄视口下出现横向滚动"
+  },
+  {
+    "id": "bench-085",
+    "page": "login",
+    "category": "zoom",
+    "severity": "blocker",
+    "selector": ".app",
+    "styles": {
+      "width": "2200px",
+      "maxWidth": "none"
+    },
+    "action": null,
+    "expected_detector": "no_horizontal_scroll",
+    "note": "容器宽度固定 2200px，窄视口下出现横向滚动"
+  },
+  {
+    "id": "bench-086",
+    "page": "settings",
+    "category": "zoom",
+    "severity": "major",
+    "selector": ".app",
+    "styles": {
+      "width": "2200px",
+      "maxWidth": "none"
+    },
+    "action": null,
+    "expected_detector": "no_horizontal_scroll",
+    "note": "容器宽度固定 2200px，窄视口下出现横向滚动"
+  },
+  {
+    "id": "bench-087",
+    "page": "home",
+    "category": "zoom",
+    "severity": "major",
+    "selector": ".app",
+    "styles": {
+      "width": "1800px",
+      "maxWidth": "none"
+    },
+    "action": null,
+    "expected_detector": "no_horizontal_scroll",
+    "note": "容器宽度固定 1800px，窄视口下出现横向滚动"
+  },
+  {
+    "id": "bench-088",
+    "page": "coin",
+    "category": "zoom",
+    "severity": "minor",
+    "selector": ".app",
+    "styles": {
+      "width": "2600px",
+      "maxWidth": "none"
+    },
+    "action": null,
+    "expected_detector": "no_horizontal_scroll",
+    "note": "容器宽度固定 2600px，窄视口下出现横向滚动"
+  },
+  {
+    "id": "bench-089",
+    "page": "trade",
+    "category": "zoom",
+    "severity": "blocker",
+    "selector": ".app",
+    "styles": {
+      "width": "3000px",
+      "maxWidth": "none"
+    },
+    "action": null,
+    "expected_detector": "no_horizontal_scroll",
+    "note": "容器宽度固定 3000px，窄视口下出现横向滚动"
+  },
+  {
+    "id": "bench-090",
+    "page": "login",
+    "category": "zoom",
+    "severity": "major",
+    "selector": ".app",
+    "styles": {
+      "width": "2400px",
+      "maxWidth": "none"
+    },
+    "action": null,
+    "expected_detector": "no_horizontal_scroll",
+    "note": "容器宽度固定 2400px，窄视口下出现横向滚动"
+  },
+  {
+    "id": "bench-091",
+    "page": "home",
+    "category": "visual",
+    "severity": "minor",
+    "selector": ".market-card",
+    "styles": {
+      "boxShadow": "none"
+    },
+    "action": null,
+    "expected_detector": "visual_diff",
+    "note": ".market-card 视觉样式变化，需要像素比对"
+  },
+  {
+    "id": "bench-092",
+    "page": "home",
+    "category": "visual",
+    "severity": "minor",
+    "selector": ".brand-mark",
+    "styles": {
+      "opacity": "0.85"
+    },
+    "action": null,
+    "expected_detector": "visual_diff",
+    "note": ".brand-mark 视觉样式变化，需要像素比对"
+  },
+  {
+    "id": "bench-093",
+    "page": "coin",
+    "category": "visual",
+    "severity": "minor",
+    "selector": ".panel",
+    "styles": {
+      "boxShadow": "none"
+    },
+    "action": null,
+    "expected_detector": "visual_diff",
+    "note": ".panel 视觉样式变化，需要像素比对"
+  },
+  {
+    "id": "bench-094",
+    "page": "coin",
+    "category": "visual",
+    "severity": "minor",
+    "selector": ".stat",
+    "styles": {
+      "opacity": "0.7"
+    },
+    "action": null,
+    "expected_detector": "visual_diff",
+    "note": ".stat 透明度 0.7，视觉变化但几何不变"
+  },
+  {
+    "id": "bench-095",
+    "page": "trade",
+    "category": "visual",
+    "severity": "minor",
+    "selector": ".trade-panel",
+    "styles": {
+      "borderColor": "#3b5bfd"
+    },
+    "action": null,
+    "expected_detector": "visual_diff",
+    "note": ".trade-panel 视觉样式变化，需要像素比对"
+  },
+  {
+    "id": "bench-096",
+    "page": "trade",
+    "category": "visual",
+    "severity": "minor",
+    "selector": ".orderbook",
+    "styles": {
+      "background": "#fbfcff"
+    },
+    "action": null,
+    "expected_detector": "visual_diff",
+    "note": ".orderbook 视觉样式变化，需要像素比对"
+  },
+  {
+    "id": "bench-097",
+    "page": "kyc",
+    "category": "visual",
+    "severity": "minor",
+    "selector": ".upload-box",
+    "styles": {
+      "borderStyle": "solid"
+    },
+    "action": null,
+    "expected_detector": "visual_diff",
+    "note": ".upload-box 视觉样式变化，需要像素比对"
+  },
+  {
+    "id": "bench-098",
+    "page": "kyc",
+    "category": "visual",
+    "severity": "minor",
+    "selector": ".kyc-card",
+    "styles": {
+      "borderRadius": "0"
+    },
+    "action": null,
+    "expected_detector": "visual_diff",
+    "note": ".kyc-card 视觉样式变化，需要像素比对"
+  },
+  {
+    "id": "bench-099",
+    "page": "login",
+    "category": "visual",
+    "severity": "minor",
+    "selector": ".login-card",
+    "styles": {
+      "boxShadow": "none"
+    },
+    "action": null,
+    "expected_detector": "visual_diff",
+    "note": ".login-card 视觉样式变化，需要像素比对"
+  },
+  {
+    "id": "bench-100",
+    "page": "login",
+    "category": "visual",
+    "severity": "minor",
+    "selector": ".login-sub",
+    "styles": {
+      "letterSpacing": "0.4px"
+    },
+    "action": null,
+    "expected_detector": "visual_diff",
+    "note": ".login-sub 视觉样式变化，需要像素比对"
+  },
+  {
+    "id": "bench-101",
+    "page": "settings",
+    "category": "visual",
+    "severity": "minor",
+    "selector": ".settings-card",
+    "styles": {
+      "borderColor": "#d1d5db"
+    },
+    "action": null,
+    "expected_detector": "visual_diff",
+    "note": ".settings-card 视觉样式变化，需要像素比对"
+  },
+  {
+    "id": "bench-102",
+    "page": "settings",
+    "category": "visual",
+    "severity": "minor",
+    "selector": ".switch",
+    "styles": {
+      "background": "#e0e7ff"
+    },
+    "action": null,
+    "expected_detector": "visual_diff",
+    "note": ".switch 视觉样式变化，需要像素比对"
+  },
+  {
+    "id": "bench-103",
+    "page": "home",
+    "category": "functional",
+    "severity": "major",
+    "selector": "body",
+    "styles": {},
+    "action": "console-error",
+    "expected_detector": "no_console_error",
+    "note": "页面抛出未捕获异常"
+  },
+  {
+    "id": "bench-104",
+    "page": "coin",
+    "category": "functional",
+    "severity": "major",
+    "selector": "body",
+    "styles": {},
+    "action": "console-error",
+    "expected_detector": "no_console_error",
+    "note": "页面抛出未捕获异常"
+  },
+  {
+    "id": "bench-105",
+    "page": "trade",
+    "category": "functional",
+    "severity": "major",
+    "selector": "body",
+    "styles": {},
+    "action": "console-error",
+    "expected_detector": "no_console_error",
+    "note": "页面抛出未捕获异常"
+  },
+  {
+    "id": "bench-106",
+    "page": "kyc",
+    "category": "functional",
+    "severity": "major",
+    "selector": "body",
+    "styles": {},
+    "action": "console-error",
+    "expected_detector": "no_console_error",
+    "note": "页面抛出未捕获异常"
+  },
+  {
+    "id": "bench-107",
+    "page": "login",
+    "category": "functional",
+    "severity": "major",
+    "selector": "body",
+    "styles": {},
+    "action": "console-error",
+    "expected_detector": "no_console_error",
+    "note": "页面抛出未捕获异常"
+  },
+  {
+    "id": "bench-108",
+    "page": "settings",
+    "category": "functional",
+    "severity": "major",
+    "selector": "body",
+    "styles": {},
+    "action": "console-error",
+    "expected_detector": "no_console_error",
+    "note": "页面抛出未捕获异常"
+  },
+  {
+    "id": "bench-109",
+    "page": "home",
+    "category": "functional",
+    "severity": "blocker",
+    "selector": "[data-testid=tab-all]",
+    "styles": {},
+    "action": "disable",
+    "expected_detector": "element_enabled",
+    "note": "[data-testid=tab-all] 被置为 disabled"
+  },
+  {
+    "id": "bench-110",
+    "page": "coin",
+    "category": "functional",
+    "severity": "blocker",
+    "selector": ".btn-buy",
+    "styles": {},
+    "action": "disable",
+    "expected_detector": "element_enabled",
+    "note": ".btn-buy 被置为 disabled"
+  },
+  {
+    "id": "bench-111",
+    "page": "trade",
+    "category": "functional",
+    "severity": "blocker",
+    "selector": ".trade-submit",
+    "styles": {},
+    "action": "disable",
+    "expected_detector": "element_enabled",
+    "note": ".trade-submit 被置为 disabled"
+  },
+  {
+    "id": "bench-112",
+    "page": "kyc",
+    "category": "functional",
+    "severity": "blocker",
+    "selector": "[data-testid=kyc-submit]",
+    "styles": {},
+    "action": "disable",
+    "expected_detector": "element_enabled",
+    "note": "[data-testid=kyc-submit] 被置为 disabled"
+  },
+  {
+    "id": "bench-113",
+    "page": "login",
+    "category": "functional",
+    "severity": "blocker",
+    "selector": "[data-testid=login-submit]",
+    "styles": {},
+    "action": "disable",
+    "expected_detector": "element_enabled",
+    "note": "[data-testid=login-submit] 被置为 disabled"
+  },
+  {
+    "id": "bench-114",
+    "page": "settings",
+    "category": "functional",
+    "severity": "blocker",
+    "selector": "[data-testid=theme-dark]",
+    "styles": {},
+    "action": "disable",
+    "expected_detector": "element_enabled",
+    "note": "[data-testid=theme-dark] 被置为 disabled"
+  },
+  {
+    "id": "bench-115",
+    "page": "home",
+    "category": "functional",
+    "severity": "blocker",
+    "selector": ".market-grid",
+    "styles": {},
+    "action": "hide",
+    "expected_detector": "element_visible",
+    "note": ".market-grid 被隐藏"
+  },
+  {
+    "id": "bench-116",
+    "page": "trade",
+    "category": "functional",
+    "severity": "blocker",
+    "selector": ".orderbook",
+    "styles": {},
+    "action": "hide",
+    "expected_detector": "element_visible",
+    "note": ".orderbook 被隐藏"
+  },
+  {
+    "id": "bench-117",
+    "page": "settings",
+    "category": "functional",
+    "severity": "blocker",
+    "selector": ".settings-card",
+    "styles": {},
+    "action": "hide",
+    "expected_detector": "element_visible",
+    "note": ".settings-card 被隐藏"
+  },
+  {
+    "id": "bench-118",
+    "page": "home",
+    "category": "loading",
+    "severity": "blocker",
+    "selector": "body",
+    "styles": {},
+    "action": "skeleton-stuck",
+    "expected_detector": "ready_gate",
+    "note": "骨架屏永不消失"
+  },
+  {
+    "id": "bench-119",
+    "page": "coin",
+    "category": "loading",
+    "severity": "blocker",
+    "selector": "body",
+    "styles": {},
+    "action": "skeleton-stuck",
+    "expected_detector": "ready_gate",
+    "note": "骨架屏永不消失"
+  },
+  {
+    "id": "bench-120",
+    "page": "trade",
+    "category": "loading",
+    "severity": "blocker",
+    "selector": "body",
+    "styles": {},
+    "action": "skeleton-stuck",
+    "expected_detector": "ready_gate",
+    "note": "骨架屏永不消失"
+  }
+]

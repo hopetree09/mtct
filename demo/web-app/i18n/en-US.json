@@ -1,0 +1,12 @@
+﻿{
+  "app": { "footer": "DemoX Exchange · Demo site for testing only" },
+  "lang": { "zh": "中文", "en": "English", "vi": "Tiếng Việt" },
+  "nav": { "markets": "Markets", "trade": "Trade", "kyc": "Verification", "settings": "Settings", "login": "Log in" },
+  "common": { "loading": "Loading…", "empty": "No data", "retry": "Retry", "cancel": "Cancel", "back": "Back", "save": "Save", "saved": "Saved", "confirm": "Confirm" },
+  "login": { "title": "Log in to DemoX", "subtitle": "Demo account: demo@example.com / any password", "email": "Email", "password": "Password", "forgot": "Forgot password?", "submit": "Log in", "required": "Please enter email and password", "invalid": "Incorrect email or password" },
+  "home": { "title": "Markets", "sub": "{count} trading pairs", "placeholder": "Search coins", "tabAll": "All", "tabFav": "Favorites", "pair": "Pair", "price": "Last price", "change": "24h change", "volume": "24h volume", "errorTitle": "Failed to load markets", "errorDesc": "Please check your connection and try again", "empty": "No matching coins" },
+  "coin": { "high": "24h high", "low": "24h low", "volume": "24h volume", "buy": "Buy {symbol}", "sell": "Sell {symbol}", "chart": "Price trend" },
+  "trade": { "orderbook": "Order book", "recent": "Recent trades", "limit": "Limit", "market": "Market", "price": "Price", "amount": "Amount", "total": "Total", "available": "Available", "submitBuy": "Buy {symbol}", "submitSell": "Sell {symbol}", "hint": "Demo environment, no real orders are created", "pricePlaceholder": "Enter price", "amountPlaceholder": "Enter amount" },
+  "kyc": { "title": "Identity verification", "sub": "Complete verification to unlock all features", "name": "Full name", "docType": "Document type", "docNo": "Document number", "address": "Residential address", "addressPlaceholder": "Street, ward, district, province/city", "upload": "Upload document photo", "submit": "Submit verification", "error": "Please fill in all required fields", "success": "Submitted successfully, under review", "idCard": "ID card", "passport": "Passport", "driver": "Driver license" },
+  "settings": { "title": "Settings", "sub": "Language and display preferences", "language": "Language", "theme": "Theme", "light": "Light", "dark": "Dark", "notify": "Price alert notifications", "version": "Version", "about": "DemoX demo site, for compatibility testing only", "saved": "Saved" }
+}

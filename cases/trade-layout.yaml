@@ -1,0 +1,30 @@
+key: trade-layout
+page: trade
+name: 交易页布局（基准）
+path: /trade/BTC
+tags: [benchmark, layout]
+visual:
+  tolerance: 0.00005
+  triage: true
+assertions:
+  - type: layout
+    rules:
+      - rule: no_horizontal_scroll
+      - rule: no_overflow
+        selectors: [".trade-panel", ".orderbook", ".order-input-row", ".trade-total", ".trade-submit"]
+      - rule: no_overlap
+        pairs:
+          - [".order-input-row", ".trade-submit"]
+          - [".trade-total", ".trade-submit"]
+      - rule: text_not_truncated
+        selectors: [".trade-submit", ".order-tabs .tab-btn", ".hint", ".trade-total", ".page-head h1"]
+      - rule: contrast_ratio
+        min_ratio: 3.0
+        selectors: [".page-sub", ".hint", ".trade-total", ".ob-row"]
+  - type: functional
+    rules:
+      - rule: element_enabled
+        selectors: [".trade-submit"]
+      - rule: element_visible
+        selectors: [".orderbook"]
+      - rule: no_console_error

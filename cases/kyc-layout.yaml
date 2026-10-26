@@ -1,0 +1,24 @@
+key: kyc-layout
+page: kyc
+name: KYC 表单布局（基准）
+path: /kyc
+tags: [benchmark, layout]
+visual:
+  tolerance: 0.00005
+  triage: true
+assertions:
+  - type: layout
+    rules:
+      - rule: no_horizontal_scroll
+      - rule: no_overflow
+        selectors: [".kyc-card", ".upload-box", ".field-row", ".field", "[data-testid=kyc-submit]"]
+      - rule: text_not_truncated
+        selectors: [".field label", ".upload-box", "[data-testid=kyc-submit]", ".page-head h1", ".kyc-card"]
+      - rule: contrast_ratio
+        min_ratio: 3.0
+        selectors: [".page-sub", ".field label", ".upload-box"]
+  - type: functional
+    rules:
+      - rule: element_enabled
+        selectors: ["[data-testid=kyc-submit]"]
+      - rule: no_console_error

@@ -1,0 +1,30 @@
+key: home-layout
+page: home
+name: 行情页布局（基准）
+path: /home
+tags: [benchmark, layout]
+visual:
+  tolerance: 0.00005
+  triage: true
+assertions:
+  - type: layout
+    rules:
+      - rule: no_horizontal_scroll
+      - rule: no_overflow
+        selectors: [".market-card", ".search-box", ".tabs", ".toolbar", ".market-grid"]
+      - rule: no_overlap
+        pairs:
+          - [".market-card:nth-of-type(1)", ".market-card:nth-of-type(2)"]
+          - [".market-card:nth-of-type(2)", ".market-card:nth-of-type(3)"]
+      - rule: text_not_truncated
+        selectors: [".page-head h1", ".market-card .pair", ".market-card .price", ".market-card .change", ".tab-btn"]
+      - rule: contrast_ratio
+        min_ratio: 3.0
+        selectors: [".page-sub", ".market-card .meta", ".market-card .change", ".tab-btn"]
+  - type: functional
+    rules:
+      - rule: element_enabled
+        selectors: ["[data-testid=tab-all]"]
+      - rule: element_visible
+        selectors: [".market-grid"]
+      - rule: no_console_error

@@ -1,0 +1,12 @@
+﻿{
+  "app": { "footer": "DemoX Exchange · Trang demo chỉ dùng cho kiểm thử" },
+  "lang": { "zh": "中文", "en": "English", "vi": "Tiếng Việt" },
+  "nav": { "markets": "Thị trường", "trade": "Giao dịch", "kyc": "Xác minh danh tính", "settings": "Cài đặt", "login": "Đăng nhập" },
+  "common": { "loading": "Đang tải…", "empty": "Không có dữ liệu", "retry": "Thử lại", "cancel": "Hủy", "back": "Quay lại", "save": "Lưu", "saved": "Đã lưu", "confirm": "Xác nhận" },
+  "login": { "title": "Đăng nhập DemoX", "subtitle": "Tài khoản demo: demo@example.com / mật khẩu bất kỳ", "email": "Email", "password": "Mật khẩu", "forgot": "Quên mật khẩu?", "submit": "Đăng nhập", "required": "Vui lòng nhập email và mật khẩu", "invalid": "Email hoặc mật khẩu không đúng" },
+  "home": { "title": "Thị trường", "sub": "Tổng cộng {count} cặp giao dịch", "placeholder": "Tìm kiếm coin", "tabAll": "Tất cả", "tabFav": "Yêu thích", "pair": "Cặp giao dịch", "price": "Giá mới nhất", "change": "Biến động 24 giờ", "volume": "Khối lượng 24 giờ", "errorTitle": "Tải thị trường thất bại", "errorDesc": "Vui lòng kiểm tra kết nối và thử lại", "empty": "Không tìm thấy coin phù hợp" },
+  "coin": { "high": "Cao nhất 24 giờ", "low": "Thấp nhất 24 giờ", "volume": "Khối lượng 24 giờ", "buy": "Mua {symbol}", "sell": "Bán {symbol}", "chart": "Xu hướng giá" },
+  "trade": { "orderbook": "Sổ lệnh", "recent": "Giao dịch gần đây", "limit": "Lệnh giới hạn", "market": "Lệnh thị trường", "price": "Giá", "amount": "Số lượng", "total": "Tổng giá trị", "available": "Khả dụng", "submitBuy": "Xác nhận đặt lệnh mua {symbol}", "submitSell": "Xác nhận đặt lệnh bán {symbol}", "hint": "Môi trường demo, không tạo lệnh thật", "pricePlaceholder": "Nhập giá", "amountPlaceholder": "Nhập số lượng" },
+  "kyc": { "title": "Xác minh danh tính", "sub": "Hoàn tất xác minh để mở khóa toàn bộ tính năng", "name": "Họ và tên", "docType": "Loại giấy tờ", "docNo": "Số giấy tờ", "address": "Địa chỉ cư trú", "addressPlaceholder": "Số nhà, tên đường, phường/xã, quận/huyện, tỉnh/thành phố", "upload": "Tải lên ảnh giấy tờ", "submit": "Gửi xác minh", "error": "Vui lòng điền đầy đủ thông tin", "success": "Gửi thành công, đang chờ duyệt", "idCard": "Căn cước công dân", "passport": "Hộ chiếu", "driver": "Giấy phép lái xe" },
+  "settings": { "title": "Cài đặt", "sub": "Ngôn ngữ và hiển thị", "language": "Ngôn ngữ", "theme": "Giao diện", "light": "Sáng", "dark": "Tối", "notify": "Thông báo biến động giá", "version": "Phiên bản", "about": "Trang demo DemoX, chỉ dùng để kiểm thử tương thích", "saved": "Đã lưu" }
+}

@@ -1,0 +1,24 @@
+key: coin-layout
+page: coin
+name: 币种详情布局（基准）
+path: /coin/BTC
+tags: [benchmark, layout]
+visual:
+  tolerance: 0.00005
+  triage: true
+assertions:
+  - type: layout
+    rules:
+      - rule: no_horizontal_scroll
+      - rule: no_overflow
+        selectors: [".panel", ".coin-stats", ".coin-header", ".price-big", ".coin-actions"]
+      - rule: text_not_truncated
+        selectors: [".price-big", ".stat-label", ".stat-value", ".coin-actions .btn", ".page-head h1"]
+      - rule: contrast_ratio
+        min_ratio: 3.0
+        selectors: [".page-sub", ".stat-label", ".stat-value"]
+  - type: functional
+    rules:
+      - rule: element_enabled
+        selectors: [".btn-buy"]
+      - rule: no_console_error

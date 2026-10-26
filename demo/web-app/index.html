@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <link rel="icon" href="data:," />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DemoX Exchange · 演示站</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/faults.css" />
+</head>
+<body>
+  <header class="topbar" data-testid="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/home" data-testid="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">DemoX<em>Exchange</em></span>
+      </a>
+      <nav class="nav" data-testid="nav">
+        <a href="#/home" data-nav="home" data-testid="nav-home" data-i18n="nav.markets">行情</a>
+        <a href="#/trade/BTC" data-nav="trade" data-testid="nav-trade" data-i18n="nav.trade">交易</a>
+        <a href="#/kyc" data-nav="kyc" data-testid="nav-kyc" data-i18n="nav.kyc">身份认证</a>
+        <a href="#/settings" data-nav="settings" data-testid="nav-settings" data-i18n="nav.settings">设置</a>
+      </nav>
+      <div class="topbar-right">
+        <span class="lang-badge" id="lang-badge" data-testid="lang-badge">中文</span>
+        <a class="btn btn-ghost btn-sm" href="#/login" data-testid="nav-login" data-i18n="nav.login">登录</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="app" data-testid="app"></main>
+
+  <footer class="footer" data-testid="footer">
+    <span data-i18n="app.footer">DemoX Exchange · 仅用于测试的演示站点</span>
+  </footer>
+
+  <div id="fault-banner" class="fault-banner" hidden data-testid="fault-banner"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

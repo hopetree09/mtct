@@ -1,0 +1,24 @@
+key: login-form
+page: login
+name: 登录表单布局（基准）
+path: /login
+tags: [benchmark, layout]
+visual:
+  tolerance: 0.00005
+  triage: true
+assertions:
+  - type: layout
+    rules:
+      - rule: no_horizontal_scroll
+      - rule: no_overflow
+        selectors: [".login-card", ".login-actions", ".field", ".login-sub", ".auth-wrap"]
+      - rule: text_not_truncated
+        selectors: [".login-card h1", ".login-sub", ".field label", ".login-actions", ".login-card"]
+      - rule: contrast_ratio
+        min_ratio: 3.0
+        selectors: [".login-sub", ".field label", ".login-card"]
+  - type: functional
+    rules:
+      - rule: element_enabled
+        selectors: ["[data-testid=login-submit]"]
+      - rule: no_console_error

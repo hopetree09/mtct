@@ -1,0 +1,14 @@
+﻿[
+  { "symbol": "BTC", "pair": "BTC/USDT", "names": { "zh-CN": "比特币", "en-US": "Bitcoin", "vi-VN": "Bitcoin" }, "price": 64218.35, "change24h": 2.41, "high24h": 65120.0, "low24h": 62890.5, "volume24h": 1852345678, "seed": 11 },
+  { "symbol": "ETH", "pair": "ETH/USDT", "names": { "zh-CN": "以太坊", "en-US": "Ethereum", "vi-VN": "Ethereum" }, "price": 3328.12, "change24h": -1.18, "high24h": 3402.44, "low24h": 3298.7, "volume24h": 923145678, "seed": 23 },
+  { "symbol": "SOL", "pair": "SOL/USDT", "names": { "zh-CN": "索拉纳", "en-US": "Solana", "vi-VN": "Solana" }, "price": 148.62, "change24h": 5.73, "high24h": 151.2, "low24h": 139.85, "volume24h": 412998877, "seed": 37 },
+  { "symbol": "XRP", "pair": "XRP/USDT", "names": { "zh-CN": "瑞波币", "en-US": "XRP", "vi-VN": "XRP" }, "price": 0.6218, "change24h": -0.42, "high24h": 0.6402, "low24h": 0.6171, "volume24h": 201456332, "seed": 41 },
+  { "symbol": "DOGE", "pair": "DOGE/USDT", "names": { "zh-CN": "狗狗币", "en-US": "Dogecoin", "vi-VN": "Dogecoin" }, "price": 0.1584, "change24h": 8.15, "high24h": 0.1621, "low24h": 0.1458, "volume24h": 188223114, "seed": 53 },
+  { "symbol": "ADA", "pair": "ADA/USDT", "names": { "zh-CN": "艾达币", "en-US": "Cardano", "vi-VN": "Cardano" }, "price": 0.4721, "change24h": -2.63, "high24h": 0.4892, "low24h": 0.4688, "volume24h": 97654120, "seed": 67 },
+  { "symbol": "AVAX", "pair": "AVAX/USDT", "names": { "zh-CN": "雪崩", "en-US": "Avalanche", "vi-VN": "Avalanche" }, "price": 36.84, "change24h": 3.09, "high24h": 37.62, "low24h": 35.41, "volume24h": 85441023, "seed": 71 },
+  { "symbol": "LINK", "pair": "LINK/USDT", "names": { "zh-CN": "链环", "en-US": "Chainlink", "vi-VN": "Chainlink" }, "price": 14.27, "change24h": 1.86, "high24h": 14.55, "low24h": 13.92, "volume24h": 67234551, "seed": 83 },
+  { "symbol": "TON", "pair": "TON/USDT", "names": { "zh-CN": "开放网络", "en-US": "Toncoin", "vi-VN": "Toncoin" }, "price": 7.12, "change24h": -3.47, "high24h": 7.49, "low24h": 7.03, "volume24h": 52118790, "seed": 89 },
+  { "symbol": "BNB", "pair": "BNB/USDT", "names": { "zh-CN": "币安币", "en-US": "BNB", "vi-VN": "BNB" }, "price": 592.44, "change24h": 0.92, "high24h": 601.1, "low24h": 583.25, "volume24h": 33120987, "seed": 97 },
+  { "symbol": "USDT", "pair": "USDT/USD", "names": { "zh-CN": "泰达币", "en-US": "Tether", "vi-VN": "Tether" }, "price": 0.9998, "change24h": 0.01, "high24h": 1.0002, "low24h": 0.9991, "volume24h": 99812345, "seed": 101 },
+  { "symbol": "USDC", "pair": "USDC/USD", "names": { "zh-CN": "美元硬币", "en-US": "USD Coin", "vi-VN": "USD Coin" }, "price": 1.0001, "change24h": -0.02, "high24h": 1.0004, "low24h": 0.9995, "volume24h": 44556677, "seed": 103 }
+]
