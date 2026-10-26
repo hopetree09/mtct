@@ -37,7 +37,9 @@ jobs:
 
       - name: Guard：公开内容不含公司名
         run: |
-          if git grep -n "HashKey" -- . ; then
+          # 运行时拼接，避免本文件里的字符串被自己匹配到
+          PATTERN="Hash""Key"
+          if git grep -n "$PATTERN" -- . ; then
             echo "::error::仓库里出现了不应公开的公司名称"
             exit 1
           fi
